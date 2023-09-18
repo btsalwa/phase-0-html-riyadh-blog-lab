@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 70%;
 }
 
 .wrapper {
@@ -30,29 +30,29 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-top: .5em;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
   margin-top: .5em;
 }
 
 img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
+  max-width: 50%;
+  width: 50%;
+  height: 55%;
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 a {
@@ -64,13 +64,13 @@ a:hover {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1042px) {
+@media only screen and (max-width: 420px) {
   .wrapper {
     width: 80%;
   }
 }
 
-@media only screen and (max-width: 784px) {
+@media only screen and (max-width: 240px) {
   body {
     font-size: 120%;
   }
@@ -78,7 +78,7 @@ a:hover {
     font-size: 2.5em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .wrapper {
     width: 95%;
